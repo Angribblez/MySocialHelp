@@ -81,9 +81,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace 'com.agribble.MySocialHelp'
+    namespace 'com.ASK_Academy.MSH'
     defaultConfig {
-        applicationId 'com.agribble.MySocialHelp'
+        applicationId 'com.ASK_Academy.MSH'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

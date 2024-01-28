@@ -1,7 +1,7 @@
 //imports
 import * as React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Text, View, Pressable, TouchableOpacity } from 'react-native';
+import { Text, View, Image, TouchableOpacity, Linking } from 'react-native';
 
 //import style
 var styles = require('../Styles.js');
@@ -13,11 +13,13 @@ function Age1718({navigation}) {
             <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.titleBar}>
                 <Text style={styles.titleText}>17-18</Text>
             </TouchableOpacity>
-            <View style={styles.ageScreenImageHolder}></View>
+            <View style={styles.ageScreenImageHolder}>
+                <Image style={{width: '100%', height: '100%'}} source={require('../../assets/racoon.gif')} />
+            </View>
             <View style={styles.ageScreenMenu}>
                 <View style={styles.ageScreenMenuButtonHolder}>
-                    <TouchableOpacity onPress={() => Linking.openURL('https://youtube.com')} style={[styles.ageScreenMenuButtonSplit, {marginRight: '2.5%'}]}><Text style={styles.buttonText}>Instructional Video 1</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={() => Linking.openURL('https://youtube.com')} style={[styles.ageScreenMenuButtonSplit, {marginLeft: '2.5%'}]}><Text style={styles.buttonText}>Instructional Video 2</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://www.youtube.com/watch?v=OzxmUZWkdE8')} style={[styles.ageScreenMenuButtonSplit, {marginRight: '2.5%'}]}><Text style={styles.buttonText}>Instructional Video 1</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://www.youtube.com/watch?v=yiU_FOjJFUI')} style={[styles.ageScreenMenuButtonSplit, {marginLeft: '2.5%'}]}><Text style={styles.buttonText}>Instructional Video 2</Text></TouchableOpacity>
                 </View>
                 <TouchableOpacity onPress={() => navigation.navigate('Quiz_1718_Q1')} style={styles.ageScreenMenuButton}><Text style={styles.buttonText}>Interactive Quiz</Text></TouchableOpacity>
                 <View style={styles.ageScreenMenuButtonHolder}>

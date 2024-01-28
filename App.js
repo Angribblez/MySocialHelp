@@ -80,7 +80,72 @@ var Quiz_1718_Q7_Correct = require('./src/Quizzes/1718/Quiz_Q7_Correct.js');
 var Quiz_1718_Q7_Incorrect = require('./src/Quizzes/1718/Quiz_Q7_Incorrect.js');
 var Quiz_1718_Passed = require('./src/Quizzes/1718/Quiz_Passed.js');
 var Quiz_1718_Failed = require('./src/Quizzes/1718/Quiz_Failed.js');
-
+var Quiz_Final_Intro = require('./src/Quizzes/Final/Quiz_Intro.js');
+var Quiz_Final_Q1 = require('./src/Quizzes/Final/Quiz_Q1.js');
+var Quiz_Final_Q1_A1 = require('./src/Quizzes/Final/Quiz_Q1_A1.js');
+var Quiz_Final_Q1_A2 = require('./src/Quizzes/Final/Quiz_Q1_A2.js');
+var Quiz_Final_Q2 = require('./src/Quizzes/Final/Quiz_Q2.js');
+var Quiz_Final_Q2_A1 = require('./src/Quizzes/Final/Quiz_Q2_A1.js');
+var Quiz_Final_Q2_A2 = require('./src/Quizzes/Final/Quiz_Q2_A2.js');
+var Quiz_Final_Q3 = require('./src/Quizzes/Final/Quiz_Q3.js');
+var Quiz_Final_Q3_A1 = require('./src/Quizzes/Final/Quiz_Q3_A1.js');
+var Quiz_Final_Q3_A1_P2 = require('./src/Quizzes/Final/Quiz_Q3_A1_P2.js');
+var Quiz_Final_Q3_A2 = require('./src/Quizzes/Final/Quiz_Q3_A2.js');
+var Quiz_Final_Q3_P2 = require('./src/Quizzes/Final/Quiz_Q3_P2.js');
+var Quiz_Final_Q3_P3 = require('./src/Quizzes/Final/Quiz_Q3_P3.js');
+var Quiz_Final_Q4 = require('./src/Quizzes/Final/Quiz_Q4.js');
+var Quiz_Final_Q4_A1 = require('./src/Quizzes/Final/Quiz_Q4_A1.js');
+var Quiz_Final_Q4_A2 = require('./src/Quizzes/Final/Quiz_Q4_A2.js');
+var Quiz_Final_Q5 = require('./src/Quizzes/Final/Quiz_Q5.js');
+var Quiz_Final_Q5_A1 = require('./src/Quizzes/Final/Quiz_Q5_A1.js');
+var Quiz_Final_Q5_A2 = require('./src/Quizzes/Final/Quiz_Q5_A2.js');
+var Quiz_Final_Q6 = require('./src/Quizzes/Final/Quiz_Q6.js');
+var Quiz_Final_Q6_A1 = require('./src/Quizzes/Final/Quiz_Q6_A1.js');
+var Quiz_Final_Q7 = require('./src/Quizzes/Final/Quiz_Q7.js');
+var Quiz_Final_Q7_A1 = require('./src/Quizzes/Final/Quiz_Q7_A1.js');
+var Quiz_Final_Q7_A2 = require('./src/Quizzes/Final/Quiz_Q7_A2.js');
+var Quiz_Final_Q7_P2 = require('./src/Quizzes/Final/Quiz_Q7_P2.js');
+var Quiz_Final_Q8 = require('./src/Quizzes/Final/Quiz_Q8.js');
+var Quiz_Final_Q8_A1 = require('./src/Quizzes/Final/Quiz_Q8_A1.js');
+var Quiz_Final_Q8_A2 = require('./src/Quizzes/Final/Quiz_Q8_A2.js');
+var Quiz_Final_Q8_A2_P2 = require('./src/Quizzes/Final/Quiz_Q8_A2_P2.js');
+var Quiz_Final_Q9 = require('./src/Quizzes/Final/Quiz_Q9.js');
+var Quiz_Final_Q9_A1 = require('./src/Quizzes/Final/Quiz_Q9_A1.js');
+var Quiz_Final_Q9_A2 = require('./src/Quizzes/Final/Quiz_Q9_A2.js');
+var Quiz_Final_Q9_A1_P2 = require('./src/Quizzes/Final/Quiz_Q9_A1_P2.js');
+var Quiz_Final_Q10 = require('./src/Quizzes/Final/Quiz_Q10.js');
+var Quiz_Final_Q10_A1 = require('./src/Quizzes/Final/Quiz_Q10_A1.js');
+var Quiz_Final_Q10_A2 = require('./src/Quizzes/Final/Quiz_Q10_A2.js');
+var Quiz_Final_Q11 = require('./src/Quizzes/Final/Quiz_Q11.js');
+var Quiz_Final_Q11_A1 = require('./src/Quizzes/Final/Quiz_Q11_A1.js');
+var Quiz_Final_Q11_A2 = require('./src/Quizzes/Final/Quiz_Q11_A2.js');
+var Quiz_Final_Q11_A1_P2 = require('./src/Quizzes/Final/Quiz_Q11_A1_P2.js');
+var Quiz_Final_Q12 = require('./src/Quizzes/Final/Quiz_Q12.js');
+var Quiz_Final_Q12_A1 = require('./src/Quizzes/Final/Quiz_Q12_A1.js');
+var Quiz_Final_Q12_A2 = require('./src/Quizzes/Final/Quiz_Q12_A2.js');
+var Quiz_Final_Q12_P2 = require('./src/Quizzes/Final/Quiz_Q12_P2.js');
+var Quiz_Final_Q13 = require('./src/Quizzes/Final/Quiz_Q13.js');
+var Quiz_Final_Q13_A1 = require('./src/Quizzes/Final/Quiz_Q13_A1.js');
+var Quiz_Final_Q13_A2 = require('./src/Quizzes/Final/Quiz_Q13_A2.js');
+var Quiz_Final_Q13_P2 = require('./src/Quizzes/Final/Quiz_Q13_P2.js');
+var Quiz_Final_Q14 = require('./src/Quizzes/Final/Quiz_Q14.js');
+var Quiz_Final_Q14_A1 = require('./src/Quizzes/Final/Quiz_Q14_A1.js');
+var Quiz_Final_Q14_A2 = require('./src/Quizzes/Final/Quiz_Q14_A2.js');
+var Quiz_Final_Q15 = require('./src/Quizzes/Final/Quiz_Q15.js');
+var Quiz_Final_Q15_A1 = require('./src/Quizzes/Final/Quiz_Q15_A1.js');
+var Quiz_Final_Q15_A2 = require('./src/Quizzes/Final/Quiz_Q15_A2.js');
+var Quiz_Final_Q15_P2 = require('./src/Quizzes/Final/Quiz_Q15_P2.js');
+var Quiz_Final_Q16 = require('./src/Quizzes/Final/Quiz_Q16.js');
+var Quiz_Final_Q16_A1 = require('./src/Quizzes/Final/Quiz_Q16_A1.js');
+var Quiz_Final_Q16_A2 = require('./src/Quizzes/Final/Quiz_Q16_A2.js');
+var Quiz_Final_Q16_P2 = require('./src/Quizzes/Final/Quiz_Q16_P2.js');
+var Quiz_Final_Q17 = require('./src/Quizzes/Final/Quiz_Q17.js');
+var Quiz_Final_Q17_A1 = require('./src/Quizzes/Final/Quiz_Q17_A1.js');
+var Quiz_Final_Q17_A2 = require('./src/Quizzes/Final/Quiz_Q17_A2.js');
+var Quiz_Final_Q18 = require('./src/Quizzes/Final/Quiz_Q18.js');
+var Quiz_Final_Q18_A1 = require('./src/Quizzes/Final/Quiz_Q18_A1.js');
+var Quiz_Final_Q18_A2 = require('./src/Quizzes/Final/Quiz_Q18_A2.js');
+var Quiz_Final_Q18_A2_P2 = require('./src/Quizzes/Final/Quiz_Q18_A2_P2.js');
 
 //stack and app creation
 const Stack = createNativeStackNavigator();
@@ -165,6 +230,72 @@ function App() {
         <Stack.Screen name="Quiz_1718_Q7_Incorrect" component={Quiz_1718_Q7_Incorrect} options={{ headerShown: false }}/>
         <Stack.Screen name="Quiz_1718_Passed" component={Quiz_1718_Passed} options={{ headerShown: false }}/>
         <Stack.Screen name="Quiz_1718_Failed" component={Quiz_1718_Failed} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Intro" component={Quiz_Final_Intro} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q1" component={Quiz_Final_Q1} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q1_A1" component={Quiz_Final_Q1_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q1_A2" component={Quiz_Final_Q1_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q2" component={Quiz_Final_Q2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q2_A1" component={Quiz_Final_Q2_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q2_A2" component={Quiz_Final_Q2_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3" component={Quiz_Final_Q3} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3_A1" component={Quiz_Final_Q3_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3_A1_P2" component={Quiz_Final_Q3_A1_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3_A2" component={Quiz_Final_Q3_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3_P2" component={Quiz_Final_Q3_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q3_P3" component={Quiz_Final_Q3_P3} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q4" component={Quiz_Final_Q4} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q4_A1" component={Quiz_Final_Q4_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name="Quiz_Final_Q4_A2" component={Quiz_Final_Q4_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q5' component={Quiz_Final_Q5} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q5_A1' component={Quiz_Final_Q5_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q5_A2' component={Quiz_Final_Q5_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q6' component={Quiz_Final_Q6} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q6_A1' component={Quiz_Final_Q6_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q7' component={Quiz_Final_Q7} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q7_A1' component={Quiz_Final_Q7_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q7_A2' component={Quiz_Final_Q7_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q7_P2' component={Quiz_Final_Q7_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q8' component={Quiz_Final_Q8} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q8_A1' component={Quiz_Final_Q8_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q8_A2' component={Quiz_Final_Q8_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q8_A2_P2' component={Quiz_Final_Q8_A2_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q9' component={Quiz_Final_Q9} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q9_A1' component={Quiz_Final_Q9_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q9_A2' component={Quiz_Final_Q9_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q9_A1_P2' component={Quiz_Final_Q9_A1_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q10' component={Quiz_Final_Q10} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q10_A1' component={Quiz_Final_Q10_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q10_A2' component={Quiz_Final_Q10_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q11' component={Quiz_Final_Q11} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q11_A1' component={Quiz_Final_Q11_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q11_A2' component={Quiz_Final_Q11_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q11_A1_P2' component={Quiz_Final_Q11_A1_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q12' component={Quiz_Final_Q12} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q12_A1' component={Quiz_Final_Q12_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q12_A2' component={Quiz_Final_Q12_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q12_P2' component={Quiz_Final_Q12_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q13' component={Quiz_Final_Q13} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q13_A1' component={Quiz_Final_Q13_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q13_A2' component={Quiz_Final_Q13_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q13_P2' component={Quiz_Final_Q13_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q14' component={Quiz_Final_Q14} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q14_A1' component={Quiz_Final_Q14_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q14_A2' component={Quiz_Final_Q14_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q15' component={Quiz_Final_Q15} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q15_A1' component={Quiz_Final_Q15_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q15_A2' component={Quiz_Final_Q15_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q15_P2' component={Quiz_Final_Q15_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q16' component={Quiz_Final_Q16} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q16_A1' component={Quiz_Final_Q16_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q16_A2' component={Quiz_Final_Q16_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q16_P2' component={Quiz_Final_Q16_P2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q17' component={Quiz_Final_Q17} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q17_A1' component={Quiz_Final_Q17_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q17_A2' component={Quiz_Final_Q17_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q18' component={Quiz_Final_Q18} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q18_A1' component={Quiz_Final_Q18_A1} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q18_A2' component={Quiz_Final_Q18_A2} options={{ headerShown: false }}/>
+        <Stack.Screen name='Quiz_Final_Q18_A2_P2' component={Quiz_Final_Q18_A2_P2} options={{ headerShown: false }}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

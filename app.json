@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MySocialHelp",
-    "slug": "MySocialHelp",
+    "name": "MSH",
+    "slug": "MSH",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,15 +22,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.agribble.MySocialHelp"
+      "package": "com.ASK_Academy.MSH"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "00085df0-db66-455d-a56f-10e92473e7f4"
+        "projectId": "416a5c5c-daf8-45dd-83f9-2bf177e633a9"
       }
-    }
+    },
+    "owner": "agribble"
   }
 }

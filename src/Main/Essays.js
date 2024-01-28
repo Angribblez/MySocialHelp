@@ -10,8 +10,8 @@ var styles = require('../Styles.js');
 function EssaysScreen({navigation}) {
     return (
         <SafeAreaView style={styles.content}>
-            <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.titleBar}>
-                <Text style={styles.titleText}>Essays</Text>
+            <TouchableOpacity onPress={() => navigation.navigate('Home')} style={[styles.titleBar, {marginBottom: 5}]}>
+                <Text style={styles.titleText}>Articles</Text>
             </TouchableOpacity>
             <View style={styles.ageBar}>
                 <View style={styles.ageRow}>

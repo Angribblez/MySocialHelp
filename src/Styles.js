@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignSelf: 'center',
         alignItems: 'center',
+        flexDirection: 'row',
         borderRadius: 15,
         width: '90%'
     },
@@ -35,13 +36,16 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     ageButton: {
-        margin: '5%',
+        marginTop: '5%',
+        marginBottom: '5%',
+        marginLeft: '2.5%',
+        marginRight: '2.5%',
         backgroundColor: '#2A3C2C',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 15,
         height: '80%',
-        width: '40%'
+        width: '45%'
     },
     menuButton: {
         marginTop: 5,
@@ -58,12 +62,12 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         textAlign: 'center',
         fontSize: 20,
+        width: '90%'
     },
     ageScreenImageHolder: {
         flex: 0.4,
         marginTop: 10,
         marginBottom: 5,
-        backgroundColor: '#FFFFFF',
         alignSelf: 'center',
         width: '90%'
     },
